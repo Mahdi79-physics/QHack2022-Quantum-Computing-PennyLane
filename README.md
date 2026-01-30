@@ -21,24 +21,24 @@ Each section corresponds to one challenge and demonstrates a core concept in qua
 ## 📂 Repository Structure
 
 QHack2022-PennyLane101-Solutions/
-│
-├── README.md
-├── requirements.txt
-│
-├── question1_single_qubit/
-│ └── solution.py
-│
-├── question2_devices/
-│ └── solution.py
-│
-├── question3_superdense_coding/
-│ └── solution.py
-│
-├── question4_gradients/
-│ └── solution.py
-│
-└── question5_error_detection/
-└── solution.py
+
+README.md
+requirements.txt
+
+question1_single_qubit/
+solution.py
+
+question2_devices/
+solution.py
+
+question3_superdense_coding/
+solution.py
+
+question4_gradients/
+solution.py
+
+question5_error_detection/
+solution.py
 
 
 Each folder contains a **self-contained solution** for the corresponding challenge.
@@ -140,12 +140,12 @@ Identify which qubit experienced a bit-flip error using measurement statistics.
 pip install pennylane numpy
 
 
-#🧠 Skills Demonstrated
+### 🧠 Skills Demonstrated
 
--Quantum circuit construction
--PennyLane QNodes
--Measurement theory
--Device backends
--Noise channels
--Gradient computation
--Quantum communication protocols
+Quantum circuit construction
+PennyLane QNodes
+Measurement theory
+Device backends
+Noise channels
+Gradient computation
+Quantum communication protocols
